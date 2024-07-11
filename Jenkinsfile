@@ -1,5 +1,5 @@
 pipeline {
-    agent any        
+    agent any {
         stage("build") {
             steps{
                 sh "./mvnw package"    
